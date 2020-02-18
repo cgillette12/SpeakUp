@@ -1,0 +1,110 @@
+// Here you can add other styles
+// Cosmo 4.3.1
+// Bootswatch
+
+
+// Variables ===================================================================
+
+$web-font-path: "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" !default;
+@import url($web-font-path);
+
+// Navbar ======================================================================
+
+// Buttons =====================================================================
+
+// Typography ==================================================================
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+.bg-transparent{
+  background: transparent
+}
+
+.selectable{
+  cursor: pointer;
+}
+
+.main-h-80 {
+  height: 80vh;
+  /* Fallback for browsers that do not support Custom Properties */
+  height: calc(var(--vh, 1vh) * 80);
+}
+
+.spin{
+  animation:spin 2s infinite linear
+}
+
+@keyframes spin{
+  0%{
+    transform:rotate(0deg)
+  }
+  100%{
+    transform:rotate(359deg)
+  }
+}
+
+.app-header .navbar-brand {
+  width:75px
+}
+
+.sidebar .nav-link {
+  color: $dark
+}
+
+.sidebar .nav-link .nav-icon {
+  color: $dark
+}
+
+.sidebar .nav-title {
+  color: $dark
+}
+
+.sidebar .nav-link:hover {
+  background: $dark;
+  color:$light;
+}
+
+.sidebar .nav-link.active {
+  background: $secondary;
+  color: $light;
+  font-weight: 600
+}
+
+.sidebar .nav-link.active .nav-icon {
+  color: $light;
+}
+
+.pagination-bottom {
+  position: fixed;
+  bottom: 0;
+  width: calc(100% - 200px);
+  opacity: 1;
+  background:$light
+}
+
+.ReactTable .-pagination .-btn {
+  border: 1px solid $dark !important;
+  background: #fff !important;
+  color:$dark !important;
+  padding: 3 !important;
+}
+
+.ReactTable .-pagination .-previous, .ReactTable .-pagination .-next {
+  flex: .15 1 !important
+}
+
+.on-hover-show {
+  visibility: hidden;
+}
+
+.on-hover-show-parent:hover .on-hover-show {
+  visibility: visible;
+}
+
+.bg-print{
+  -webkit-print-color-adjust: exact !important
+}
+
+// Containers ==================================================================

@@ -1,0 +1,92 @@
+/*----------------------------------
+Choose your Theme Variables
+----------------------------------*/
+  //LIGHT THEMES
+
+  @import "themes/fyclabs/variables";
+  // @import "themes/cerulean/variables";
+  // @import "themes/cosmo/variables";
+  // @import "themes/flatly/variables";
+  // @import "themes/journal/variables";
+  // @import "themes/litera/variables";
+  // @import "themes/lumen/variables";
+  // @import "themes/materia/variables";
+  // @import "themes/minty/variables";
+  // @import "themes/pulse/variables";
+  // @import "themes/sandstone/variables";
+  // @import "themes/simplex/variables";
+  // @import "themes/sketchy/variables";
+  // @import "themes/spacelab/variables";
+  // @import "themes/united/variables";
+  // @import "themes/yeti/variables";
+
+  // DARK THEMES
+  // @import "themes/cyborg/variables";
+  // @import "themes/darkly/variables";
+  // @import "themes/slate/variables";
+  // @import "themes/solar/variables";
+  // @import "themes/superhero/variables";
+
+/*----------------------------------
+Choose your Core UI theme
+----------------------------------*/
+  @import "~@coreui/coreui-pro/scss/coreui.scss";
+  // @import "~@coreui/coreui-pro/scss/themes/dark/coreui-dark.scss";
+
+/*----------------------------------
+Temp fix for reactstrap
+----------------------------------*/
+  @import "~@coreui/coreui-pro/scss/_dropdown-menu-right.scss";
+
+/*----------------------------------
+Choose your Bootswatch Stylesheet
+----------------------------------*/
+
+  // LIGHT THEMES 
+
+  @import "themes/fyclabs/bootswatch";
+  // @import "themes/cerulean/bootswatch";
+  // @import "themes/cosmo/bootswatch";
+  // @import "themes/flatly/bootswatch";
+  // @import "themes/journal/bootswatch";
+  // @import "themes/litera/bootswatch";
+  // @import "themes/lumen/bootswatch";
+  // @import "themes/materia/bootswatch";
+  // @import "themes/minty/bootswatch";
+  // @import "themes/pulse/bootswatch";
+  // @import "themes/sandstone/bootswatch";
+  // @import "themes/simplex/bootswatch";
+  // @import "themes/sketchy/bootswatch";
+  // @import "themes/spacelab/bootswatch";
+  // @import "themes/united/bootswatch";
+  // @import "themes/yeti/bootswatch";
+
+  // DARK THEMES 
+  // @import "themes/cyborg/bootswatch";
+  // @import "themes/darkly/bootswatch";
+  // @import "themes/slate/bootswatch";
+  // @import "themes/solar/bootswatch";
+  // @import "themes/superhero/bootswatch";
+
+/*----------------------------------
+If you want to add something do it here
+----------------------------------*/
+  @import "custom";
+
+
+/*----------------------------------
+ie fixes
+----------------------------------*/
+  @import "ie-fix";
+
+/*----------------------------------
+temp fixes
+----------------------------------*/
+  @import "fixes";
+
+
+/*----------------------------------
+// Spinkit
+----------------------------------*/
+  $spinkit-spinner-color: $body-color;
+  @import '~spinkit/scss/spinkit.scss';
