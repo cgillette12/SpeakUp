@@ -106,5 +106,28 @@ body {
 .bg-print{
   -webkit-print-color-adjust: exact !important
 }
+#fullscreen-container {
+    height: 100%;
+    width: 100%;
+    background-image: url('../assets/img/homeBackground.jpg');
+    text-align: center;
+    overflow: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#services {
+   height: 100%;
+    width: 100%;
+    background-image: url(https://www.britishcouncil.it/sites/default/files/seminario.jpg);
+    text-align: center;
+    overflow: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#links li{
+  text-decoration: none;
+}
 
 // Containers ==================================================================

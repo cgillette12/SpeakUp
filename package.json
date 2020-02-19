@@ -1,5 +1,6 @@
 {
   "name": "speakup1",
+  "homepage": "https://cgillette12.github.io/SpeakUp/",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -37,6 +38,7 @@
     "firebase-tools": "^7.11.0",
     "flag-icon-css": "^3.3.0",
     "font-awesome": "^4.7.0",
+    "gh-pages": "^2.2.0",
     "gulp": "^4.0.0",
     "gulp-awspublish": "^4.0.0",
     "gulp-cloudfront-invalidate": "^0.1.5",
