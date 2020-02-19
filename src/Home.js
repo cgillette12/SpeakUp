@@ -21,9 +21,9 @@ export class Home extends Component {
     return (
       <div >
         <header >
-          <nav className="navbar navbar-expand-lg fixed-top navbar-dark" style={{ backgroundColor: 'white', height: 50 }}>
+          <nav className="navbar navbar-expand-lg fixed-top navbar-dark" style={{ backgroundColor: 'white', height: 60 }}>
             <a className="navbar-brand" style={{ color: 'black' }} href="/">
-              <img src={logo} alt="" style={{ height: 50, width: 'auto' }} /></a>
+              <img src={logo} alt="" style={{ height: 60, width: 'auto' }} /></a>
           </nav>
         </header>
         <div id='fullscreen-container' className="  mt-5 vh-100 align-middle ">

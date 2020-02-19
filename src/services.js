@@ -65,7 +65,7 @@ export  class Services extends Component{
               <h5 className="text-uppercase">Extra Info</h5>
               <ul id='links'className="list-unstyled" style={{textDecoration:'none'}}>
                 <li>
-                  <a href="https://www.asha.org/public/speech/development/Speech-and-Language/">Speech andLanguage</a>
+                  <a href="https://www.asha.org/public/speech/development/Speech-and-Language/">Speech and Language</a>
                 </li>
                 <li>
                   <a href="https://www.asha.org/public/Early-Identification-of-Speech-Language-and-Hearing-Disorders/">Early-Identification</a>
